@@ -1,3 +1,12 @@
+
+### CMSSW Docker
+```
+docker images
+docker search cmssw
+docker pull cmssw/cmssw:CMSSW_11_0_3
+docker run -v /shared/path/host:/path/guest/ -it cmssw/cmssw:CMSSW_11_0_3 bash
+```
+
 ### Github workshop notes
 ```bash
 git config --global user.email "email@example.com" #email setup
